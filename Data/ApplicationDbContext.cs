@@ -15,6 +15,7 @@ namespace NguyenVanSon_02.Data
 
         public DbSet<NguyenVanSonDb> NguyenVanSonDb { get; set; } = default!;
         public DbSet<NhaCungCap> NhaCungCap { get; set; } = default!;
+        public DbSet<SanPham> SanPham { get; set; } = default!;
     }
 }
 
