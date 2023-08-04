@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NguyenVanSon_02.Models;
-namespace NguyenVanSon_02.Data;
+namespace NguyenVanSon_02.Data
 {
         public class ApplicationDbContext : DbContext
     {
